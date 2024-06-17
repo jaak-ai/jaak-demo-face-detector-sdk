@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.jaak.demofacedetector.ui.view.MenuMainActivity">
+
+    <ImageView
+        android:id="@+id/ivJaak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/jaak_logo_purple"
+        app:layout_constraintBottom_toTopOf="@+id/gl1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gl1"
+        app:layout_constraintGuide_percent=".15"
+        android:orientation="horizontal"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/glv1"
+        app:layout_constraintGuide_percent=".50"
+        android:orientation="vertical"/>
+
+    <ImageView
+        android:id="@+id/ivBtnCamara"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/btn_menu_camara"
+        app:layout_constraintEnd_toStartOf="@+id/glv1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gl1" />
+
+    <ImageView
+        android:id="@+id/ivBtnFileVideo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/btn_menu_file_video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/glv1"
+        app:layout_constraintTop_toTopOf="@+id/gl1" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

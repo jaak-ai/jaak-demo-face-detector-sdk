@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Jaak Demo Face Detector SDK</string>
+    <string name="btn_start">Comenzar</string>
+    <string name="text_base64">Archivo Base64</string>
+    <string name="content_base_64_indication">Se obtuvo de manera exitosa el archivo en base64</string>
+    <string name="validate_service">Validando…</string>
+    <string name="title_verification_face">Verificación Facial</string>
+    <string name="content_thanks">Estamos aquí para brindarte la mejor experiencia en seguridad y autenticidad. Este proceso nos ayuda a verificar tu identidad.</string>
+    <string name="title_thanks">¡Gracias por elegir JAAK!</string>
+    <string name="title_how_to_process">¿Cómo se realiza este proceso?</string>
+    <string name="content_how_to_process">Utilizamos AI para saber quién eres y asegurarnos que en verdad eres tú, siempre siguiendo los más altos estándares en protección de datos. \n\nEl <b>proceso de Verificación</b> facial es muy sencillo, y se lleva a cabo escaneando tu rostro para garantizar que estás vivo.  \n\nNo guardamos ni compartimos tu información, sólo utilizamos los datos para garantizar la autenticidad de tu identidad.Este proceso garantiza que tu información personal esté protegida y que solo tú puedas acceder a tu cuenta. \n\n<b>¡Comencemos!</b></string>
+    <string name="content_success_liveness">Nos complace informarte que el proceso de Liveness se ha completado con éxito. Hemos validado con precisión tu identidad y los documentos proporcionados, asegurando así una experiencia confiable. \n\nSi tienes alguna pregunta o necesitas asistencia adicional, no dudes en contactarnos.</string>
+    <string name="btn_exit_process">Salir del proceso</string>
+    <string name="congratulations">¡Enhorabuena!</string>
+    <string name="result">Resultados</string>
+    <string name="sorry_error">¡Lo sentimos!</string>
+    <string name="validate">Validando…</string>
+    <string name="error_human">El video enviado valida que no eres un humano, vuelve a intentarlo…</string>
+    <string name="title_main_menu">Menu Principal</string>
+    <string name="error_base64_empty">Viene vacio el base64</string>
+</resources>
