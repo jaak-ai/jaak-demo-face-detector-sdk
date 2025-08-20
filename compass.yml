@@ -1,0 +1,14 @@
+name: jaak-demo-face-detector-sdk
+id: ari:cloud:compass:3bb16e59-5eaf-47cb-a0aa-3c3febc65466:component/656b16c9-c93c-439c-be64-701e12e8301a/d23d038b-8841-4c2f-be13-83c916f5368d
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links: []
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:kotlin
+  - source:github
+customFields: null
